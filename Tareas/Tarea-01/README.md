@@ -19,6 +19,18 @@
 
 ---
 
+### **Tarea hecha por:**
+
+```Haskell
+\src> Carlos Emilio Castañon Maldonado
+```
+
+```Kotlin  
+\src> Dana Berenice Hernandez Norberto
+```
+
+---
+
 ## **Requerimientos**
 
 Para la presente implementacion se contemplaron las bibliotecas de **pandas** y de  **Pyarrow** , en caso de no tenerlas, se
