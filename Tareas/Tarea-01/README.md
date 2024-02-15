@@ -155,7 +155,7 @@ En donde:
 ```
 
 ```Julia
-<iteraciones> = N numeros, correspondientes a los valores de x_i
+<iteraciones> = Numero de iteraciones a realizar
 ```
 
 ```Julia
