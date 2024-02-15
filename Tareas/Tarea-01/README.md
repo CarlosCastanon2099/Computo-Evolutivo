@@ -190,3 +190,26 @@ Mejor Solucion encontrada:
 x = [0.07419368 0.20817246]
 f(x) = 0.04931019454632571
 ```
+
+
+-------
+
+Para consultar el Notebook en el que se ejecuto la búsqueda aleatoria para todas las funciones anteriores, considerando 1,000,000 
+iteraciones en las dimensiones 2, 5 y 10 para saber el mejor caso de f(x), su caso promedio y el peor.
+
+Consultar el Notebook [tablas.ipynb](./src/tablas.ipynb)
+
+
+|  Funcion Objetivo  |  Dimension   |  Mejor f(x)    |  Promedio f(x)  |   Peor f(x)      |
+|--------------------|--------------|----------------|-----------------|------------------|
+|    sum_of_powers   |     2        |  2.098934e-09  |  2.978298e+09   |   1.952262e+11   |
+|    sum_of_powers   |     5        |  4.351890e-08  |  7.384374e+09   |   2.500835e+11   |
+|    sum_of_powers   |    10        |  1.212787e-03  |  1.481389e+10   |   2.852122e+11   |
+|         zakharov   |     2        |  0.000082      |  6.977483e+05   |   6.252611e+06   |
+|         zakharov   |     5        |  1.620490      |  2.145085e+09   |   5.364599e+10   |
+|         zakharov   |    10        |  692966.098116 |  5.540794e+11   |   1.296510e+13   |
+|         schwefel   |     2        |  830.075215    |  837.969796     |   845.856388     |
+|         schwefel   |     5        |  2075.331918   |  2094.919634    |   2114.534886    |
+|         schwefel   |    10        |  4155.145285   |  4189.813929    |   4224.956487    |
+
+-------
