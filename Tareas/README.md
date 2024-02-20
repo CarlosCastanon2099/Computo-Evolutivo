@@ -8,7 +8,7 @@
 </div>
 
 > -  Tarea 01: <em> Problemas de Optimización </em>
-> -  Tarea 02: <em> This :> Tarea 02. </em>
+> -  Tarea 02: <em> Representación de Soluciones </em>
 > -  Tarea 03: <em> This :> Tarea 03. </em>
 > -  Tarea 0n: <em> This :> Tarea 0n. </em>
 
