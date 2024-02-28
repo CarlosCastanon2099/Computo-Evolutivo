@@ -59,7 +59,7 @@ def leer_ArchivoCol(archivo):
 
 
 
-def dibujar_grafo(vertices, aristas):
+def dibujar_Grafica(vertices, aristas):
     G = nx.Graph()
     G.add_nodes_from(vertices)
     G.add_edges_from(aristas)
@@ -75,7 +75,7 @@ def dibujar_grafo(vertices, aristas):
 #print("Vértices:", vertices)
 #print("Aristas:", aristas)
 
-#dibujar_grafo(vertices, aristas)
+#dibujar_Grafica(vertices, aristas)
 
 
 
@@ -144,7 +144,7 @@ def coloresVecinos(solucion, vertice):
 # vertices tengan color asignado
 def colorearGraficaConNColores(archivo):
     n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
-    # dibujar_grafo(vertices, aristas)
+    # dibujar_Grafica(vertices, aristas)
     n_colores = n_vertices # Como en el peor de los casos se necesitaran n_vertices colores, vamos a asignarle ese numero de colores
     solucion = SColoracion(n_vertices)
     vertices = list(range(1, n_vertices+1))
@@ -166,7 +166,7 @@ def colorearGraficaConNColores(archivo):
         #    solucion.asignar_color(vecino, color)
     return solucion
 
-def dibujar_grafo_coloreado(solucion, vertices, aristas):
+def dibujar_Grafica_coloreado(solucion, vertices, aristas):
     G = nx.Graph()
     G.add_nodes_from(vertices)
     G.add_edges_from(aristas)
@@ -184,9 +184,9 @@ n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
 #print("Vértices:", vertices)
 #print("Aristas:", aristas)
 
-dibujar_grafo(vertices, aristas)
+dibujar_Grafica(vertices, aristas)
 solucion = colorearGraficaConNColores(archivo)
-#dibujar_grafo_coloreado(solucion, vertices, aristas)
+#dibujar_Grafica_coloreado(solucion, vertices, aristas)
 
 
 
@@ -225,11 +225,11 @@ def generar_vecino(solucion_actual):
 #print("Vértices:", vertices)
 #print("Aristas:", aristas)
 
-#dibujar_grafo(vertices, aristas)
+#dibujar_Grafica(vertices, aristas)
 #solucion = colorearGraficaConNColores(archivo)
 #solucionVecina = generar_vecino(solucion)
-#dibujar_grafo_coloreado(solucion, vertices, aristas)
-#dibujar_grafo_coloreado(solucionVecina, vertices, aristas)
+#dibujar_Grafica_coloreado(solucion, vertices, aristas)
+#dibujar_Grafica_coloreado(solucionVecina, vertices, aristas)
 
 # Funcion que genera una vecindad de soluciones
 def generarVecindad(solucion):
@@ -278,9 +278,9 @@ print("Número de aristas:", n_aristas)
 print("Vértices:", vertices)
 print("Aristas:", aristas)
 
-#dibujar_grafo(vertices, aristas)
+#dibujar_Grafica(vertices, aristas)
 #solucion = busquedaEscalada(archivo)
-dibujar_grafo_coloreado(solucion, vertices, aristas)
+dibujar_Grafica_coloreado(solucion, vertices, aristas)
 solucionEscalada = busquedaEscalada(archivo)
 dibujarsolucionEscalada(solucionEscalada, vertices, aristas)
 
