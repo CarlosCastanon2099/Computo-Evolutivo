@@ -201,32 +201,33 @@ def generar_vecino(solucion_actual):
      
     """
     vertice_a_cambiar = random.randint(1, solucion_actual.n_vertices)
-    colores_vecinos = coloresVecinos(solucion_actual, vertice_a_cambiar)
+    #colores_vecinos = coloresVecinos(solucion_actual, vertice_a_cambiar)
 
 
     color_asignado_actual = solucion_actual.obtener_color(vertice_a_cambiar)
     nuevo_color = color_asignado_actual
-    while nuevo_color == color_asignado_actual & nuevo_color not in colores_vecinos:
+    while nuevo_color in coloresVecinos(solucion, vertice_a_cambiar):
         nuevo_color = random.randint(1, solucion_actual.n_vertices)
+        solucion_actual.asignar_color(vertice_a_cambiar, nuevo_color)
     
     # Crear una copia de la solución actual y modificar el color del vértice seleccionado
     nueva_solucion = SColoracion(solucion_actual.n_vertices, solucion_actual.colores_asignados[:])
     nueva_solucion.asignar_color(vertice_a_cambiar, nuevo_color)
     return nueva_solucion
 
-archivo = 'prueba1.col'
-n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
+#archivo = 'prueba1.col'
+#n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
 
 #print("Número de vértices:", n_vertices)
 #print("Número de aristas:", n_aristas)
 #print("Vértices:", vertices)
 #print("Aristas:", aristas)
 
-dibujar_grafo(vertices, aristas)
-solucion = colorearGraficaConNColores(archivo)
-solucionVecina = generar_vecino(solucion)
-dibujar_grafo_coloreado(solucion, vertices, aristas)
-dibujar_grafo_coloreado(solucionVecina, vertices, aristas)
+#dibujar_grafo(vertices, aristas)
+#solucion = colorearGraficaConNColores(archivo)
+#solucionVecina = generar_vecino(solucion)
+#dibujar_grafo_coloreado(solucion, vertices, aristas)
+#dibujar_grafo_coloreado(solucionVecina, vertices, aristas)
 
 
 """
