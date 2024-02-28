@@ -3,6 +3,8 @@ import random
 import matplotlib.pyplot as plt
 import networkx as nx
 
+
+
 """
 # Definir la lista de colores
 # Definir la lista de colores en códigos hexadecimales
@@ -142,7 +144,7 @@ def coloresVecinos(solucion, vertice):
 # vertices tengan color asignado
 def colorearGraficaConNColores(archivo):
     n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
-    dibujar_grafo(vertices, aristas)
+    # dibujar_grafo(vertices, aristas)
     n_colores = n_vertices # Como en el peor de los casos se necesitaran n_vertices colores, vamos a asignarle ese numero de colores
     solucion = SColoracion(n_vertices)
     vertices = list(range(1, n_vertices+1))
@@ -174,16 +176,16 @@ def dibujar_grafo_coloreado(solucion, vertices, aristas):
     plt.show()
 
 
-#archivo = 'prueba1.col'
-#n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
+archivo = 'prueba1.col'
+n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
 
 #print("Número de vértices:", n_vertices)
 #print("Número de aristas:", n_aristas)
 #print("Vértices:", vertices)
 #print("Aristas:", aristas)
 
-#dibujar_grafo(vertices, aristas)
-#solucion = colorearGraficaConNColores(archivo)
+dibujar_grafo(vertices, aristas)
+solucion = colorearGraficaConNColores(archivo)
 #dibujar_grafo_coloreado(solucion, vertices, aristas)
 
 
@@ -229,51 +231,59 @@ def generar_vecino(solucion_actual):
 #dibujar_grafo_coloreado(solucion, vertices, aristas)
 #dibujar_grafo_coloreado(solucionVecina, vertices, aristas)
 
+# Funcion que genera una vecindad de soluciones
+def generarVecindad(solucion):
+    vecindad = []
+    for i in range(100):
+        vecino = generar_vecino(solucion)
+        vecindad.append(vecino)
+    return vecindad
+
+
 
 """
-def hill_climbing(archivo_instancia, n_colores, max_iter):
-    # 
-    Algoritmo de búsqueda por escalada para el problema de coloración de grafos.
-
-    Parámetros:
-    archivo_instancia : str
-        Ruta al archivo que contiene la instancia del problema.
-    n_colores : int
-        Número de colores disponibles para la coloración.
-    max_iter : int
-        Número máximo de iteraciones permitidas.
-
-    Devuelve:
-    SColoracion
-        La mejor solución encontrada por el algoritmo.
-    # 
-    # Leer la instancia del problema
-    n_vertices, _, _, _ = leer_ArchivoCol(archivo_instancia)
-
-    # Generar una solución aleatoria como punto de partida
-    mejor_solucion = generar_solucion_aleatoria(n_vertices, n_colores)
-    mejor_valor = zakharov(mejor_solucion.colores_asignados)
-
-    iteracion = 0
-    while iteracion < max_iter:
-        # Generar un vecino de la solución actual
-        vecino = generar_vecino(mejor_solucion, n_colores)
-        valor_vecino = zakharov(vecino.colores_asignados)
-        
-        # Si el vecino es mejor que la solución actual, actualizar la mejor solución
-        if valor_vecino < mejor_valor:
-            mejor_solucion = vecino
-            mejor_valor = valor_vecino
-
-        iteracion += 1
-
-    return mejor_solucion
-
-# Ejemplo de uso del algoritmo de búsqueda por escalada
-archivo_instancia = 'prueba1.col'
-n_colores = 4
-max_iter = 1000
-mejor_solucion = hill_climbing(archivo_instancia, n_colores, max_iter)
-print("Mejor solución encontrada:", mejor_solucion.colores_asignados)
-print("Valor de la función de Zakharov:", zakharov(mejor_solucion.colores_asignados))
+Algoritmo de búsqueda por escalada para el problema de coloración de grafos.
+Una vez propuesto todo lo anterior podemos hacer uso de una busqueda en escalada para 
+obtener una solucion en nuestra vecindad que satisfaga que el mínimo número de colores que se requieren
+para asignar a cada vértice un color, de manera que dos vértices adyacentes no tengan el mismo color.
 """
+
+def busquedaEscalada(archivo):
+    solucion = colorearGraficaConNColores(archivo)
+    costo = zakharov(solucion.colores_asignados)
+    while True:
+        vecindad = generarVecindad(solucion)
+        mejor_vecino = min(vecindad, key=lambda x: zakharov(x.colores_asignados))
+        if zakharov(mejor_vecino.colores_asignados) < costo:
+            solucion = mejor_vecino
+            costo = zakharov(solucion.colores_asignados)
+        else:
+            break
+    return solucion
+
+def dibujarsolucionEscalada(solucion, vertices, aristas):
+    G = nx.Graph()
+    G.add_nodes_from(vertices)
+    G.add_edges_from(aristas)
+    pos = nx.spring_layout(G)
+    colores = [mapear_color(solucion.obtener_color(v)) for v in vertices]
+    nx.draw(G, pos, with_labels=True, node_size=700, node_color=colores, font_size=8, font_weight='bold')
+    plt.show()
+
+archivo = 'prueba1.col'
+n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
+
+print("Número de vértices:", n_vertices)
+print("Número de aristas:", n_aristas)
+print("Vértices:", vertices)
+print("Aristas:", aristas)
+
+#dibujar_grafo(vertices, aristas)
+#solucion = busquedaEscalada(archivo)
+dibujar_grafo_coloreado(solucion, vertices, aristas)
+solucionEscalada = busquedaEscalada(archivo)
+dibujarsolucionEscalada(solucionEscalada, vertices, aristas)
+
+
+
+
