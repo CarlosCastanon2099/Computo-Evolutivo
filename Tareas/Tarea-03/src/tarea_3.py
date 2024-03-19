@@ -2,87 +2,22 @@
 Tarea 3
 """
 
+## **Importamos las librerías que vamos a usar**"""
 import numpy as np
+import pandas as pd
+import copy
+import random
+import matplotlib.pyplot as plt
+import networkx as nx
 
-"""# **1**"""
 
-#Ejercicio 1. a)
-def codifica_aux(decimal,nBit):
-    #Utilizamos como parametro un número natural en decimal y la cantidad de bits que queremos utilizar en el arreglo para decodificar
-    binary = np.zeros(nBit,dtype=int)
-    i = nBit - 1
-    while decimal > 0:
-        binary[i] = decimal % 2
-        #Establecemos ahora al número natural como la división entera del numero anterior
-        decimal //=2
-        i-=1
-    return binary
-
-def decodifica_aux(binary):
-    #Utilizamos como parametros un arreglo de bits e inicializamos un número decimal
-    decimal = 0
-    for i in range(len(binary)):
-        #Utilizando el algoritmo para convertir de binario a decimal
-        decimal += binary[i]*2**(len(binary)-i-1)
-    return decimal
-
-#Ejercicio 1. c)
-def codifica(x,nBit,a,b):
-    # x es el número real que queremos codificar
-    # nBit es la cantidad de Bits con la que queremos representar el número real
-    # a es el límite inferior del intervalo donde se encuentra el número a evaluar
-    # b es el límite superior, es importante que a sea menor que b
-    # Calculamos la precisión dividiendo la longitud del intervalo entre el número de reales que podemos representar con nBits
-    precision = (b-a)/(2**nBit)
-    #Checamos que el número que queremos codificar se encuentra dentro del intervalo
-    x= max(a,min(b,x))
-    #Le asignamos una posición en el intervalo a x
-    index = int((x-a)/precision)
-    #Convertimos a binario
-    binary = codifica_aux(index,nBit)
-    return binary
-
-#Ejercicio 1. d)
-def decodifica(x_cod,nBit,a,b):
-    #x_cod ahora es el arreglo de bits
-    precision = (b-a)/(2**nBit)
-    #Hacemos un proceso inverso a la función de codificación
-    index = decodifica_aux(x_cod)
-    #Establecemos al número decimal como x y lo definimos conforme a la función anterior
-    x = a+ index *precision
-    return x
-
-#Ejercicio 1. e)
-def codifica_v(x,nBit,a,b):
-    binary = list()
-    #En este caso x es un vector de números reales que queremos codificar
-    for i in x:
-        binary.append(codifica(i,nBit,a,b))
-    return binary
-
-def decodifica_v(x_cod,nBit,a,b):
-    decimal = list()
-    #x_cod es un vector de arreglos de bits para convertir a decimal
-    for i in x_cod:
-        decimal.append(decodifica(i,nBit,a,b))
-    return decimal
-
-"""# **2**
-
-## **En caso de no tener instalado lo siguiente, instalarlo con los siguientes comandos:**
+## **En caso de no tener instalado lo anterior, instalarlo con los siguientes comandos:**
 """
-
 # pip install numpy
 # pip install matplotlib
 # pip install pandas
 # pip install networkx
-
-"""## **Importamos las librerías que vamos a usar**"""
-
-import pandas as pd
-import random
-import matplotlib.pyplot as plt
-import networkx as nx
+"""
 
 # Definimos nuestro lector de archivos .col
 # Y creamos una grafica en base a lo recolectado en el archivo
@@ -105,10 +40,8 @@ e 2 3
 e 4 5
 e 6 7
 e 8 9
-
-
-
 """
+
 def leer_ArchivoCol(archivo):
     vertices = set()
     aristas = []
@@ -135,7 +68,6 @@ def leer_ArchivoCol(archivo):
     return n_vertices, n_aristas, list(vertices), aristas
 
 # Definimos una funcion que dibuje la grafica que obtuvimos anteriormente
-
 def dibujar_Grafica(vertices, aristas):
     G = nx.Graph()
     G.add_nodes_from(vertices)
@@ -157,8 +89,6 @@ Recordemos que este archivo modela la grafica:
               │   ╲  │
               │    ╲ │
               2──────4
-"""
-
 archivo = 'prueba1.col'
 n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
 
@@ -168,9 +98,10 @@ print("Vértices:", vertices)
 print("Aristas:", aristas)
 
 dibujar_Grafica(vertices, aristas)
+"""
+
 
 """## **Esquema de representación de soluciones.**"""
-
 class SColoracion:
     def __init__(self, n_vertices, colores_asignados=None):
         self.n_vertices = n_vertices
@@ -223,7 +154,6 @@ def mapear_color(numero):
     return colores[numero % len(colores)]
 
 """### **La funcion de evaluacion que usaremos**"""
-
 def zakharov(x):
     x = pd.Series(x)
     d = len(x)
@@ -259,9 +189,7 @@ def colorearGraficaConNColores(archivo):
 
     #Ahora ordenamos la lista de vertices con los vertices de mayor a menor, iniciando por aquellos que tienen mas vecinos
     vertices.sort(key=lambda v: len([v1 for v1, v2 in aristas if v1 == v or v2 == v]), reverse=True)
-
     #vecinos = [v for v1, v2 in aristas if v1 == vertice for v in [v2]] + [v for v1, v2 in aristas if v2 == vertice for v in [v1]]
-
     for vertice in vertices:
         # Asignar un color aleatorio al vértice y verificar que ese color no esté asignado a ninguno de sus vecinos
         color = (random.randint(1, n_colores))
@@ -282,11 +210,11 @@ def dibujar_Grafica_coloreado(solucion, vertices, aristas):
     pos = nx.spring_layout(G)
     colores = [mapear_color(solucion.obtener_color(v)) for v in vertices]
     nx.draw(G, pos, with_labels=True, node_size=700, node_color=colores, font_size=8, font_weight='bold')
-
     plt.show()
 
 """### **Probamos la solucion generada con lo siguiente**"""
 
+'''
 archivo = 'prueba1.col'
 n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
 
@@ -298,6 +226,7 @@ n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
 dibujar_Grafica(vertices, aristas)
 solucion = colorearGraficaConNColores(archivo)
 dibujar_Grafica_coloreado(solucion, vertices, aristas)
+'''
 
 # Notese como primero dibujamos la grafica original y despues dibujamos el resultado de la solucion aleatoria
 
@@ -363,95 +292,112 @@ def dibujarsolucionEscalada(solucion, vertices, aristas):
     pos = nx.spring_layout(G)
     colores = [mapear_color(solucion.obtener_color(v)) for v in vertices]
     nx.draw(G, pos, with_labels=True, node_size=700, node_color=colores, font_size=8, font_weight='bold')
-
-
     plt.show()
 
-"""### Procedemos a probar nuestra busqueda por escalada"""
 
-archivo = 'prueba1.col'
-n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
+########################################################################################################################
+########################################################################################################################
+########################################################################################################################
+########################################################################################################################
+########################################################################################################################
 
+# Busqueda Local Iterada
+# Función para generar una solución inicial aleatoria
+def generar_solucion_inicial(n_vertices, n_colores):
+    return [random.randint(1, n_colores) for _ in range(n_vertices)]
+
+# Función para generar una solución vecina modificando algunos vértices
+# generar_vecino
+def generar_vecino_iterada(solucion_actual, n_colores):
+    vecino = copy.deepcopy(solucion_actual)
+    vertice_a_modificar = random.randint(0, len(solucion_actual) - 1)
+    nuevo_color = random.randint(1, n_colores)
+    vecino[vertice_a_modificar] = nuevo_color
+    return vecino
+
+
+# Función para evaluar la calidad de una solución (número de colores utilizados, estos deben ser como maximo el numero de vertices)
+# En caso de que se utilicen mas colores que vertices, se penalizara con un valor muy alto o si por el contrario se asigna el mismo color a 
+# dos vertices que son adyacentes, tambien se penalizara con un valor muy alto
+def evaluar_solucion(solucion):
+    n_colores = max(solucion)
+    if n_colores > len(solucion):
+        return float('inf')
+    for v1, v2 in aristas:
+        if solucion[v1 - 1] == solucion[v2 - 1]:
+            return float('inf')
+    return n_colores
+
+
+
+# Función para dibujar la gráfica con la coloración dada
+def dibujar_grafica_coloreada(vertices, aristas, colores):
+    G = nx.Graph()
+    G.add_nodes_from(vertices)
+    G.add_edges_from(aristas)
+    pos = nx.spring_layout(G)
+    nx.draw(G, pos, with_labels=True, node_size=700, node_color=colores, font_size=8, font_weight='bold')
+    plt.show()
+
+# Función de búsqueda local iterada (ILS)
+def busqueda_local_iterada(archivo, max_iteraciones, temperatura_inicial, factor_enfriamiento):
+    n_vertices, _, _, _ = leer_ArchivoCol(archivo)
+    n_colores = n_vertices # Se asignan inicialmente tantos colores como vértices
+    mejor_solucion = None
+    mejor_costo = float('inf')
+
+    # Generar una solución inicial aleatoria
+    solucion_actual = generar_solucion_inicial(n_vertices, n_colores)
+    costo_actual = evaluar_solucion(solucion_actual)
+
+    # Búsqueda local iterada
+    for _ in range(max_iteraciones):
+        vecino = generar_vecino_iterada(solucion_actual, n_colores)
+        costo_vecino = evaluar_solucion(vecino)
+
+        # Aceptar la solución vecina si es mejor o con cierta probabilidad si es peor
+        if costo_vecino < costo_actual:
+            solucion_actual = vecino
+            costo_actual = costo_vecino
+        else:
+            probabilidad_aceptacion = temperatura_inicial / (temperatura_inicial + 1)
+            if random.random() < probabilidad_aceptacion:
+                solucion_actual = vecino
+                costo_actual = costo_vecino
+
+        # Actualizar la mejor solución encontrada
+        if costo_actual < mejor_costo:
+            mejor_solucion = solucion_actual
+            mejor_costo = costo_actual
+
+        # Enfriar la temperatura
+        temperatura_inicial *= factor_enfriamiento
+
+    return mejor_solucion
+
+# Parámetros del algoritmo
+max_iteraciones = 1000
+temperatura_inicial = 100
+factor_enfriamiento = 0.95
+
+# Ejemplo de uso del algoritmo
+archivo = 'grafica_Grandota.col'
+n_vertices, _, vertices, aristas = leer_ArchivoCol(archivo)
+
+mejor_solucion = busqueda_local_iterada(archivo, max_iteraciones, temperatura_inicial, factor_enfriamiento)
+print("Mejor solución encontrada:", mejor_solucion)
+
+# Imprimimos el numero de vertices de la grafica
 print("Número de vértices:", n_vertices)
-print("Número de aristas:", n_aristas)
-print("Vértices:", vertices)
-print("Aristas:", aristas)
 
-#dibujar_Grafica(vertices, aristas)
-print("Solucion Aleatoria:")
-solucion = colorearGraficaConNColores(archivo)
-dibujar_Grafica_coloreado(solucion, vertices, aristas)
+# Imprimimos el numero de aristas de la grafica
+print("Número de aristas:", len(aristas))
 
-print("Solucion por escalada:")
-solucionEscalada = busquedaEscalada(archivo)
-dibujarsolucionEscalada(solucionEscalada, vertices, aristas)
+# Imprimimos el numero de colores que se usaron
+print("Número de colores:", max(mejor_solucion))
 
-"""### Prueba en grafica de 5 vértices y 7 aristas"""
+# Convertir los colores de la solución a un formato compatible con la función de dibujo
+colores = [mapear_color(color) for color in mejor_solucion]
 
-archivo = 'graficaPapalote.col'
-n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
-
-print("Número de vértices:", n_vertices)
-print("Número de aristas:", n_aristas)
-print("Vértices:", vertices)
-print("Aristas:", aristas)
-
-#dibujar_Grafica(vertices, aristas)
-print("Solucion Aleatoria:")
-solucion = colorearGraficaConNColores(archivo)
-dibujar_Grafica_coloreado(solucion, vertices, aristas)
-
-print("Solucion por escalada:")
-solucionEscalada = busquedaEscalada(archivo)
-dibujarsolucionEscalada(solucionEscalada, vertices, aristas)
-
-"""### Prueba en grafica de 10 vértices y 15 aristas"""
-
-archivo = 'graficaTres.col'
-n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
-
-print("Número de vértices:", n_vertices)
-print("Número de aristas:", n_aristas)
-print("Vértices:", vertices)
-print("Aristas:", aristas)
-
-#dibujar_Grafica(vertices, aristas)
-print("Solucion Aleatoria:")
-solucion = colorearGraficaConNColores(archivo)
-dibujar_Grafica_coloreado(solucion, vertices, aristas)
-
-print("Solucion por escalada:")
-solucionEscalada = busquedaEscalada(archivo)
-dibujarsolucionEscalada(solucionEscalada, vertices, aristas)
-
-"""
-# Borrar los comentarios y cambiar el parametro nombreArchivo.col para probar con otro archivo y veer su coloracion
-archivo = 'nombreArchivo.col'
-n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
-
-print("Número de vértices:", n_vertices)
-print("Número de aristas:", n_aristas)
-print("Vértices:", vertices)
-print("Aristas:", aristas)
-
-print("Solucion Aleatoria:")
-solucion = colorearGraficaConNColores(archivo)
-dibujar_Grafica_coloreado(solucion, vertices, aristas)
-
-print("Solucion por escalada:")
-solucionEscalada = busquedaEscalada(archivo)
-dibujarsolucionEscalada(solucionEscalada, vertices, aristas)
-"""
-
-# Funciones del punto 1
-#codifica_aux(decimal,nBit)
-
-#decodifica_aux(binary)
-
-#codifica(x,nBit,a,b)
-
-#decodifica(x_cod,nBit,a,b)
-
-#codifica_v(x,nBit,a,b)
-
-#decodifica_v(x_cod,nBit,a,b)
+# Dibujar la gráfica con la coloración resultante
+dibujar_grafica_coloreada(vertices, aristas, colores)
