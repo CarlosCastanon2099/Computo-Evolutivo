@@ -301,10 +301,33 @@ def dibujarsolucionEscalada(solucion, vertices, aristas):
 ########################################################################################################################
 ########################################################################################################################
 
-# Busqueda Local Iterada
-# Función para generar una solución inicial aleatoria
-def generar_solucion_inicial(n_vertices, n_colores):
-    return [random.randint(1, n_colores) for _ in range(n_vertices)]
+# Generamos una solución inicial aleatoria con colorearGraficaConNColores
+# generar_solucion_inicial
+def colorearGraficaConNColores2(archivo):
+    n_vertices, n_aristas, vertices, aristas = leer_ArchivoCol(archivo)
+    # dibujar_Grafica(vertices, aristas)
+    n_colores = n_vertices # Como en el peor de los casos se necesitaran n_vertices colores, vamos a asignarle ese numero de colores
+    solucion = SColoracion(n_vertices)
+    vertices = list(range(1, n_vertices+1))
+
+    #Ahora ordenamos la lista de vertices con los vertices de mayor a menor, iniciando por aquellos que tienen mas vecinos
+    vertices.sort(key=lambda v: len([v1 for v1, v2 in aristas if v1 == v or v2 == v]), reverse=True)
+
+    #vecinos = [v for v1, v2 in aristas if v1 == vertice for v in [v2]] + [v for v1, v2 in aristas if v2 == vertice for v in [v1]]
+
+    for vertice in vertices:
+        # Asignar un color aleatorio al vértice y verificar que ese color no esté asignado a ninguno de sus vecinos
+        color = (random.randint(1, n_colores))
+        while color in coloresVecinos(solucion, vertice):
+            color = (random.randint(1, n_colores))
+        solucion.asignar_color(vertice, color)
+        
+        #for vecino in vecinos:
+        #    color = (random.randint(1, n_colores))
+        #    solucion.asignar_color(vecino, color)
+    # Regresamos una lista de con los colores de la solucion
+    return solucion.colores_asignados
+
 
 # Función para generar una solución vecina modificando algunos vértices
 # generar_vecino
@@ -347,7 +370,7 @@ def busqueda_local_iterada(archivo, max_iteraciones, temperatura_inicial, factor
     mejor_costo = float('inf')
 
     # Generar una solución inicial aleatoria
-    solucion_actual = generar_solucion_inicial(n_vertices, n_colores)
+    solucion_actual = colorearGraficaConNColores2(archivo)
     costo_actual = evaluar_solucion(solucion_actual)
 
     # Búsqueda local iterada
@@ -376,9 +399,9 @@ def busqueda_local_iterada(archivo, max_iteraciones, temperatura_inicial, factor
     return mejor_solucion
 
 # Parámetros del algoritmo
-max_iteraciones = 1000
-temperatura_inicial = 100
-factor_enfriamiento = 0.95
+max_iteraciones = 10000000
+temperatura_inicial = 500000
+factor_enfriamiento = 0.99999999999999
 
 # Ejemplo de uso del algoritmo
 archivo = 'grafica_Grandota.col'
