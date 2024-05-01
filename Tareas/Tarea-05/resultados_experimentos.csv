@@ -1,0 +1,451 @@
+Funcion,Algoritmo,Mejor Aptitud,Tiempo
+sphere,Algoritmo Genetico,0.0,1.4210009574890137
+sphere,Recocido Simulado (Logaritmico),5.0,0.0010356903076171875
+sphere,Recocido Simulado (Decremento Lento),0.0,0.007963180541992188
+sphere,Algoritmo Genetico,1.0,1.4535188674926758
+sphere,Recocido Simulado (Logaritmico),5.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.006999969482421875
+sphere,Algoritmo Genetico,0.0,1.4085438251495361
+sphere,Recocido Simulado (Logaritmico),2.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.008001565933227539
+sphere,Algoritmo Genetico,0.0,1.4050004482269287
+sphere,Recocido Simulado (Logaritmico),3.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.00699925422668457
+sphere,Algoritmo Genetico,1.0,1.383542537689209
+sphere,Recocido Simulado (Logaritmico),5.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.00799870491027832
+sphere,Algoritmo Genetico,1.0,1.3740348815917969
+sphere,Recocido Simulado (Logaritmico),4.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.006998777389526367
+sphere,Algoritmo Genetico,0.0,1.3794736862182617
+sphere,Recocido Simulado (Logaritmico),3.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.0069980621337890625
+sphere,Algoritmo Genetico,1.0,1.3739657402038574
+sphere,Recocido Simulado (Logaritmico),3.0,0.0010001659393310547
+sphere,Recocido Simulado (Decremento Lento),0.0,0.0069997310638427734
+sphere,Algoritmo Genetico,0.0,1.3805217742919922
+sphere,Recocido Simulado (Logaritmico),5.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.006997108459472656
+sphere,Algoritmo Genetico,1.0,1.409555196762085
+sphere,Recocido Simulado (Logaritmico),6.0,0.0009970664978027344
+sphere,Recocido Simulado (Decremento Lento),0.0,0.006999492645263672
+sphere,Algoritmo Genetico,0.0,1.3689672946929932
+sphere,Recocido Simulado (Logaritmico),6.0,0.0009989738464355469
+sphere,Recocido Simulado (Decremento Lento),0.0,0.0069997310638427734
+sphere,Algoritmo Genetico,1.0,1.4065196514129639
+sphere,Recocido Simulado (Logaritmico),2.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.011999368667602539
+sphere,Algoritmo Genetico,0.0,1.3810336589813232
+sphere,Recocido Simulado (Logaritmico),3.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.007002115249633789
+sphere,Algoritmo Genetico,0.0,1.3694839477539062
+sphere,Recocido Simulado (Logaritmico),3.0,0.0010001659393310547
+sphere,Recocido Simulado (Decremento Lento),0.0,0.007032155990600586
+sphere,Algoritmo Genetico,0.0,1.363964319229126
+sphere,Recocido Simulado (Logaritmico),2.0,0.0
+sphere,Recocido Simulado (Decremento Lento),1.0,0.007035493850708008
+sphere,Algoritmo Genetico,0.0,1.364520788192749
+sphere,Recocido Simulado (Logaritmico),1.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.007964611053466797
+sphere,Algoritmo Genetico,0.0,1.3660001754760742
+sphere,Recocido Simulado (Logaritmico),3.0,0.0010030269622802734
+sphere,Recocido Simulado (Decremento Lento),0.0,0.0069963932037353516
+sphere,Algoritmo Genetico,0.0,1.3786911964416504
+sphere,Recocido Simulado (Logaritmico),6.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.008002758026123047
+sphere,Algoritmo Genetico,0.0,1.4085164070129395
+sphere,Recocido Simulado (Logaritmico),6.0,0.001001119613647461
+sphere,Recocido Simulado (Decremento Lento),0.0,0.006998538970947266
+sphere,Algoritmo Genetico,0.0,1.3750011920928955
+sphere,Recocido Simulado (Logaritmico),3.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.008036613464355469
+sphere,Algoritmo Genetico,1.0,1.37847900390625
+sphere,Recocido Simulado (Logaritmico),3.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.0069997310638427734
+sphere,Algoritmo Genetico,0.0,1.3750040531158447
+sphere,Recocido Simulado (Logaritmico),2.0,0.0
+sphere,Recocido Simulado (Decremento Lento),1.0,0.007031917572021484
+sphere,Algoritmo Genetico,0.0,1.389510154724121
+sphere,Recocido Simulado (Logaritmico),6.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.006999969482421875
+sphere,Algoritmo Genetico,0.0,1.3765826225280762
+sphere,Recocido Simulado (Logaritmico),3.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.0070323944091796875
+sphere,Algoritmo Genetico,1.0,1.3749666213989258
+sphere,Recocido Simulado (Logaritmico),4.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.0069963932037353516
+sphere,Algoritmo Genetico,0.0,1.3685438632965088
+sphere,Recocido Simulado (Logaritmico),4.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.006999492645263672
+sphere,Algoritmo Genetico,1.0,1.3669674396514893
+sphere,Recocido Simulado (Logaritmico),4.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.00699925422668457
+sphere,Algoritmo Genetico,0.0,1.367499589920044
+sphere,Recocido Simulado (Logaritmico),4.0,0.0010333061218261719
+sphere,Recocido Simulado (Decremento Lento),0.0,0.006998538970947266
+sphere,Algoritmo Genetico,0.0,1.3934822082519531
+sphere,Recocido Simulado (Logaritmico),1.0,0.0
+sphere,Recocido Simulado (Decremento Lento),0.0,0.0069997310638427734
+sphere,Algoritmo Genetico,0.0,1.369999885559082
+sphere,Recocido Simulado (Logaritmico),3.0,0.0
+sphere,Recocido Simulado (Decremento Lento),1.0,0.007997751235961914
+ackley,Algoritmo Genetico,0.0,1.6623451709747314
+ackley,Recocido Simulado (Logaritmico),2.376360272343085,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.009032964706420898
+ackley,Algoritmo Genetico,0.0,1.658963918685913
+ackley,Recocido Simulado (Logaritmico),2.637531092108304,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.010002851486206055
+ackley,Algoritmo Genetico,0.0,1.6592471599578857
+ackley,Recocido Simulado (Logaritmico),2.637531092108304,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.00996708869934082
+ackley,Algoritmo Genetico,0.0,1.6645076274871826
+ackley,Recocido Simulado (Logaritmico),2.0751545922899837,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.010033845901489258
+ackley,Algoritmo Genetico,0.0,1.6569716930389404
+ackley,Recocido Simulado (Logaritmico),2.8703147202664994,0.00099945068359375
+ackley,Recocido Simulado (Decremento Lento),0.0,0.009998559951782227
+ackley,Algoritmo Genetico,0.0,1.6765787601470947
+ackley,Recocido Simulado (Logaritmico),2.376360272343085,0.0009653568267822266
+ackley,Recocido Simulado (Decremento Lento),0.0,0.01600193977355957
+ackley,Algoritmo Genetico,0.0,1.7415425777435303
+ackley,Recocido Simulado (Logaritmico),2.376360272343085,0.0
+ackley,Recocido Simulado (Decremento Lento),1.7111871278556592,0.009963035583496094
+ackley,Algoritmo Genetico,0.0,1.7405147552490234
+ackley,Recocido Simulado (Logaritmico),2.376360272343085,0.0
+ackley,Recocido Simulado (Decremento Lento),2.637531092108304,0.010999202728271484
+ackley,Algoritmo Genetico,0.0,1.7679965496063232
+ackley,Recocido Simulado (Logaritmico),2.376360272343085,0.0010001659393310547
+ackley,Recocido Simulado (Decremento Lento),0.0,0.008999347686767578
+ackley,Algoritmo Genetico,0.0,1.6800026893615723
+ackley,Recocido Simulado (Logaritmico),3.081625695846352,0.0009987354278564453
+ackley,Recocido Simulado (Decremento Lento),0.0,0.009999275207519531
+ackley,Algoritmo Genetico,0.0,1.695542573928833
+ackley,Recocido Simulado (Logaritmico),2.0751545922899837,0.0010023117065429688
+ackley,Recocido Simulado (Decremento Lento),0.0,0.009000301361083984
+ackley,Algoritmo Genetico,0.0,1.6635780334472656
+ackley,Recocido Simulado (Logaritmico),2.0751545922899837,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.009999275207519531
+ackley,Algoritmo Genetico,0.0,1.6675083637237549
+ackley,Recocido Simulado (Logaritmico),3.275966186384373,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.008966684341430664
+ackley,Algoritmo Genetico,0.0,1.6840004920959473
+ackley,Recocido Simulado (Logaritmico),2.8703147202664994,0.001032114028930664
+ackley,Recocido Simulado (Decremento Lento),1.7111871278556592,0.009999275207519531
+ackley,Algoritmo Genetico,0.0,1.676543951034546
+ackley,Recocido Simulado (Logaritmico),0.0,0.0010001659393310547
+ackley,Recocido Simulado (Decremento Lento),0.0,0.00903463363647461
+ackley,Algoritmo Genetico,0.0,1.6734743118286133
+ackley,Recocido Simulado (Logaritmico),2.8703147202664994,0.0010001659393310547
+ackley,Recocido Simulado (Decremento Lento),0.0,0.008997917175292969
+ackley,Algoritmo Genetico,0.0,1.6760356426239014
+ackley,Recocido Simulado (Logaritmico),3.081625695846352,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.009966850280761719
+ackley,Algoritmo Genetico,0.0,1.7565796375274658
+ackley,Recocido Simulado (Logaritmico),2.0751545922899837,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.010000228881835938
+ackley,Algoritmo Genetico,0.0,1.6756069660186768
+ackley,Recocido Simulado (Logaritmico),2.8703147202664994,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.00900125503540039
+ackley,Algoritmo Genetico,0.0,1.6905291080474854
+ackley,Recocido Simulado (Logaritmico),2.0751545922899837,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.008999824523925781
+ackley,Algoritmo Genetico,0.0,1.6769654750823975
+ackley,Recocido Simulado (Logaritmico),2.637531092108304,0.00099945068359375
+ackley,Recocido Simulado (Decremento Lento),0.0,0.009000062942504883
+ackley,Algoritmo Genetico,0.0,1.6794912815093994
+ackley,Recocido Simulado (Logaritmico),2.8703147202664994,0.00099945068359375
+ackley,Recocido Simulado (Decremento Lento),0.0,0.009033918380737305
+ackley,Algoritmo Genetico,0.0,1.6835112571716309
+ackley,Recocido Simulado (Logaritmico),2.0751545922899837,0.0009987354278564453
+ackley,Recocido Simulado (Decremento Lento),0.0,0.008999109268188477
+ackley,Algoritmo Genetico,0.0,1.6700031757354736
+ackley,Recocido Simulado (Logaritmico),2.0751545922899837,0.0009982585906982422
+ackley,Recocido Simulado (Decremento Lento),0.0,0.00896596908569336
+ackley,Algoritmo Genetico,0.0,1.6693363189697266
+ackley,Recocido Simulado (Logaritmico),2.376360272343085,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.008965015411376953
+ackley,Algoritmo Genetico,0.0,1.6935091018676758
+ackley,Recocido Simulado (Logaritmico),2.376360272343085,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.00900411605834961
+ackley,Algoritmo Genetico,0.0,1.6925160884857178
+ackley,Recocido Simulado (Logaritmico),1.7111871278556592,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.010000467300415039
+ackley,Algoritmo Genetico,1.2257411716696964,1.6750001907348633
+ackley,Recocido Simulado (Logaritmico),2.8703147202664994,0.000997304916381836
+ackley,Recocido Simulado (Decremento Lento),0.0,0.00999903678894043
+ackley,Algoritmo Genetico,0.0,1.6685080528259277
+ackley,Recocido Simulado (Logaritmico),2.637531092108304,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.009999752044677734
+ackley,Algoritmo Genetico,0.0,1.6915497779846191
+ackley,Recocido Simulado (Logaritmico),3.081625695846352,0.0
+ackley,Recocido Simulado (Decremento Lento),0.0,0.009967565536499023
+griewank,Algoritmo Genetico,0.0,1.8169982433319092
+griewank,Recocido Simulado (Logaritmico),0.2792667643766771,0.0010006427764892578
+griewank,Recocido Simulado (Decremento Lento),0.08243233686544527,0.012033224105834961
+griewank,Algoritmo Genetico,0.0,1.7944865226745605
+griewank,Recocido Simulado (Logaritmico),0.6941139092964337,0.0010001659393310547
+griewank,Recocido Simulado (Decremento Lento),0.6674456300788558,0.012999296188354492
+griewank,Algoritmo Genetico,0.0,1.8075203895568848
+griewank,Recocido Simulado (Logaritmico),0.6921393872166346,0.0010004043579101562
+griewank,Recocido Simulado (Decremento Lento),0.7180079896177101,0.012999534606933594
+griewank,Algoritmo Genetico,0.0,1.8076093196868896
+griewank,Recocido Simulado (Logaritmico),0.7086134959988053,0.001001596450805664
+griewank,Recocido Simulado (Decremento Lento),0.35652456685504674,0.012964487075805664
+griewank,Algoritmo Genetico,0.0,1.8435494899749756
+griewank,Recocido Simulado (Logaritmico),0.6381605279648999,0.0009992122650146484
+griewank,Recocido Simulado (Decremento Lento),0.13320182377064238,0.012965202331542969
+griewank,Algoritmo Genetico,0.0,1.806004524230957
+griewank,Recocido Simulado (Logaritmico),0.7242406539509889,0.0
+griewank,Recocido Simulado (Decremento Lento),0.597335958548078,0.013996124267578125
+griewank,Algoritmo Genetico,0.0,1.8073196411132812
+griewank,Recocido Simulado (Logaritmico),0.6941139092964337,0.0009996891021728516
+griewank,Recocido Simulado (Decremento Lento),0.6962099229010543,0.013000249862670898
+griewank,Algoritmo Genetico,0.0,1.8015782833099365
+griewank,Recocido Simulado (Logaritmico),0.4825497597675753,0.0
+griewank,Recocido Simulado (Decremento Lento),0.3058883750339684,0.013031721115112305
+griewank,Algoritmo Genetico,0.0,1.7959680557250977
+griewank,Recocido Simulado (Logaritmico),0.200475688592467,0.0010001659393310547
+griewank,Recocido Simulado (Decremento Lento),0.42235825674820004,0.012999296188354492
+griewank,Algoritmo Genetico,0.0,1.8107080459594727
+griewank,Recocido Simulado (Logaritmico),0.49388943516767325,0.0
+griewank,Recocido Simulado (Decremento Lento),0.200475688592467,0.014003515243530273
+griewank,Algoritmo Genetico,0.0,1.803476333618164
+griewank,Recocido Simulado (Logaritmico),0.6738839192210035,0.0010004043579101562
+griewank,Recocido Simulado (Decremento Lento),0.3173149329239452,0.01299428939819336
+griewank,Algoritmo Genetico,0.0,1.7865500450134277
+griewank,Recocido Simulado (Logaritmico),0.3925957785740025,0.0010020732879638672
+griewank,Recocido Simulado (Decremento Lento),0.46716960462156876,0.013965368270874023
+griewank,Algoritmo Genetico,0.0,1.7960340976715088
+griewank,Recocido Simulado (Logaritmico),0.4059152417261702,0.0
+griewank,Recocido Simulado (Decremento Lento),0.22438024997956496,0.013965368270874023
+griewank,Algoritmo Genetico,0.0,1.812516212463379
+griewank,Recocido Simulado (Logaritmico),0.4583982119838378,0.0
+griewank,Recocido Simulado (Decremento Lento),0.5440106571925337,0.014000177383422852
+griewank,Algoritmo Genetico,0.0,1.8106153011322021
+griewank,Recocido Simulado (Logaritmico),0.6113830869182468,0.0009984970092773438
+griewank,Recocido Simulado (Decremento Lento),0.2300045675537601,0.01300048828125
+griewank,Algoritmo Genetico,0.0,1.812509536743164
+griewank,Recocido Simulado (Logaritmico),0.6763635602337474,0.0
+griewank,Recocido Simulado (Decremento Lento),0.49388943516767325,0.012966156005859375
+griewank,Algoritmo Genetico,0.0,1.7869987487792969
+griewank,Recocido Simulado (Logaritmico),0.12819206846881503,0.0009999275207519531
+griewank,Recocido Simulado (Decremento Lento),0.35518328601140314,0.01703357696533203
+griewank,Algoritmo Genetico,0.0,1.7890284061431885
+griewank,Recocido Simulado (Logaritmico),0.5398526774436294,0.0010004043579101562
+griewank,Recocido Simulado (Decremento Lento),0.37061889539409476,0.013033390045166016
+griewank,Algoritmo Genetico,0.0,1.8004755973815918
+griewank,Recocido Simulado (Logaritmico),0.17681208738769172,0.0
+griewank,Recocido Simulado (Decremento Lento),0.43285704743736186,0.01399993896484375
+griewank,Algoritmo Genetico,0.0,1.794584035873413
+griewank,Recocido Simulado (Logaritmico),0.6530384373964135,0.0009999275207519531
+griewank,Recocido Simulado (Decremento Lento),0.6516099323889841,0.013004541397094727
+griewank,Algoritmo Genetico,0.0,1.7935690879821777
+griewank,Recocido Simulado (Logaritmico),0.6609582174087664,0.0010020732879638672
+griewank,Recocido Simulado (Decremento Lento),0.5946064502746562,0.012962102890014648
+griewank,Algoritmo Genetico,0.0,1.7840003967285156
+griewank,Recocido Simulado (Logaritmico),0.2935962283205601,0.0010004043579101562
+griewank,Recocido Simulado (Decremento Lento),0.24477523047820804,0.01400303840637207
+griewank,Algoritmo Genetico,0.0,1.8135433197021484
+griewank,Recocido Simulado (Logaritmico),0.7012302242299371,0.0
+griewank,Recocido Simulado (Decremento Lento),0.5526893260491234,0.012996673583984375
+griewank,Algoritmo Genetico,0.0,1.801518201828003
+griewank,Recocido Simulado (Logaritmico),0.7358079053790294,0.0010023117065429688
+griewank,Recocido Simulado (Decremento Lento),0.35742384998885257,0.012964487075805664
+griewank,Algoritmo Genetico,0.0,1.8025822639465332
+griewank,Recocido Simulado (Logaritmico),0.28598103875631653,0.0009999275207519531
+griewank,Recocido Simulado (Decremento Lento),0.31402985485458335,0.013999462127685547
+griewank,Algoritmo Genetico,0.0,1.7939951419830322
+griewank,Recocido Simulado (Logaritmico),0.34552077192593234,0.0
+griewank,Recocido Simulado (Decremento Lento),0.4714127239993239,0.01500391960144043
+griewank,Algoritmo Genetico,0.0,1.788517713546753
+griewank,Recocido Simulado (Logaritmico),0.7242406539509889,0.0010001659393310547
+griewank,Recocido Simulado (Decremento Lento),0.5729437119856666,0.013033390045166016
+griewank,Algoritmo Genetico,0.0,1.8085448741912842
+griewank,Recocido Simulado (Logaritmico),0.6389452580837978,0.0
+griewank,Recocido Simulado (Decremento Lento),0.38745592678104657,0.013996124267578125
+griewank,Algoritmo Genetico,0.0,1.7853138446807861
+griewank,Recocido Simulado (Logaritmico),0.70765013711157,0.000997304916381836
+griewank,Recocido Simulado (Decremento Lento),0.41608368308962884,0.012963294982910156
+griewank,Algoritmo Genetico,0.0,1.8040032386779785
+griewank,Recocido Simulado (Logaritmico),0.7278980899565071,0.0
+griewank,Recocido Simulado (Decremento Lento),0.21827061034568018,0.014000892639160156
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.748542308807373
+rastrigin,Recocido Simulado (Logaritmico),0.5477877660100554,0.000997304916381836
+rastrigin,Recocido Simulado (Decremento Lento),0.2986392285716564,0.011998653411865234
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7345118522644043
+rastrigin,Recocido Simulado (Logaritmico),0.6237415919401524,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.38251940077991914,0.012997865676879883
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7495100498199463
+rastrigin,Recocido Simulado (Logaritmico),0.505057789064356,0.0009984970092773438
+rastrigin,Recocido Simulado (Decremento Lento),0.2712733407789654,0.011966705322265625
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7349963188171387
+rastrigin,Recocido Simulado (Logaritmico),0.6102515372795227,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.32663555213649725,0.013000249862670898
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7465791702270508
+rastrigin,Recocido Simulado (Logaritmico),0.6999611382152043,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.25205662488116737,0.012033700942993164
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7374742031097412
+rastrigin,Recocido Simulado (Logaritmico),0.5581506337640715,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.2317358415155307,0.012041568756103516
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7364764213562012
+rastrigin,Recocido Simulado (Logaritmico),0.8345678765060999,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.2681920946209706,0.013000726699829102
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.8180022239685059
+rastrigin,Recocido Simulado (Logaritmico),0.7146724264621842,0.0010008811950683594
+rastrigin,Recocido Simulado (Decremento Lento),0.4340577323508796,0.01299905776977539
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.758542537689209
+rastrigin,Recocido Simulado (Logaritmico),0.5751207896594722,0.001032114028930664
+rastrigin,Recocido Simulado (Decremento Lento),0.30898909848526057,0.011966943740844727
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7456164360046387
+rastrigin,Recocido Simulado (Logaritmico),0.2964982786481807,0.0009989738464355469
+rastrigin,Recocido Simulado (Decremento Lento),0.3190757575788906,0.011998891830444336
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.739999771118164
+rastrigin,Recocido Simulado (Logaritmico),0.4659768209709354,0.0009849071502685547
+rastrigin,Recocido Simulado (Decremento Lento),0.4747458694975088,0.011980772018432617
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7516207695007324
+rastrigin,Recocido Simulado (Logaritmico),0.2618603938700838,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.23625120279204873,0.01299285888671875
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7444891929626465
+rastrigin,Recocido Simulado (Logaritmico),0.38346188901822037,0.0009984970092773438
+rastrigin,Recocido Simulado (Decremento Lento),0.363125647226639,0.012001276016235352
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.754030704498291
+rastrigin,Recocido Simulado (Logaritmico),0.5788018355032615,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.3305449348693681,0.011980056762695312
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7475054264068604
+rastrigin,Recocido Simulado (Logaritmico),0.31133386207631714,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.45322569261779216,0.012999296188354492
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7496020793914795
+rastrigin,Recocido Simulado (Logaritmico),0.31447933399041883,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.37643533822842945,0.013004779815673828
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7425763607025146
+rastrigin,Recocido Simulado (Logaritmico),0.22487352637178246,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.3260265442265643,0.013001680374145508
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7570006847381592
+rastrigin,Recocido Simulado (Logaritmico),0.7146724264621842,0.0009975433349609375
+rastrigin,Recocido Simulado (Decremento Lento),0.814404340012565,0.010968446731567383
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.730574607849121
+rastrigin,Recocido Simulado (Logaritmico),0.3870522456693589,0.0009999275207519531
+rastrigin,Recocido Simulado (Decremento Lento),0.36724785138997335,0.01199960708618164
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7625184059143066
+rastrigin,Recocido Simulado (Logaritmico),0.6095319696100311,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.27405373695381396,0.013004302978515625
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7373206615447998
+rastrigin,Recocido Simulado (Logaritmico),0.544399240942871,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.4355185119426058,0.012000083923339844
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.755995750427246
+rastrigin,Recocido Simulado (Logaritmico),0.2681920946209706,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.6953751913071676,0.014004707336425781
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7517712116241455
+rastrigin,Recocido Simulado (Logaritmico),0.34386238255648355,0.0010001659393310547
+rastrigin,Recocido Simulado (Decremento Lento),0.2293283166148698,0.01200413703918457
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7635090351104736
+rastrigin,Recocido Simulado (Logaritmico),0.6468167139885967,0.00099945068359375
+rastrigin,Recocido Simulado (Decremento Lento),0.21934047925756242,0.012999534606933594
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7555646896362305
+rastrigin,Recocido Simulado (Logaritmico),0.2850232324870035,0.000986337661743164
+rastrigin,Recocido Simulado (Decremento Lento),0.27405373695381396,0.011030435562133789
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7519659996032715
+rastrigin,Recocido Simulado (Logaritmico),0.34171872065330977,0.0010001659393310547
+rastrigin,Recocido Simulado (Decremento Lento),0.3045903986170947,0.013035774230957031
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7484817504882812
+rastrigin,Recocido Simulado (Logaritmico),0.29218207859564416,0.0009996891021728516
+rastrigin,Recocido Simulado (Decremento Lento),0.34936075342922984,0.013035297393798828
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.740307331085205
+rastrigin,Recocido Simulado (Logaritmico),0.6195230784100519,0.0010008811950683594
+rastrigin,Recocido Simulado (Decremento Lento),0.3190757575788906,0.013000011444091797
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7409999370574951
+rastrigin,Recocido Simulado (Logaritmico),0.26157846460823564,0.0
+rastrigin,Recocido Simulado (Decremento Lento),0.30665840220977547,0.013004779815673828
+rastrigin,Algoritmo Genetico,0.19824084527638602,1.7505943775177002
+rastrigin,Recocido Simulado (Logaritmico),0.3618287981130464,0.0010001659393310547
+rastrigin,Recocido Simulado (Decremento Lento),0.3618287981130464,0.012998580932617188
+rosenbrock,Algoritmo Genetico,0.0,1.7965075969696045
+rosenbrock,Recocido Simulado (Logaritmico),206.0,0.0
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.014029979705810547
+rosenbrock,Algoritmo Genetico,0.0,1.8018343448638916
+rosenbrock,Recocido Simulado (Logaritmico),202.0,0.0
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.015000104904174805
+rosenbrock,Algoritmo Genetico,0.0,1.7869682312011719
+rosenbrock,Recocido Simulado (Logaritmico),303.0,0.0010004043579101562
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.013031959533691406
+rosenbrock,Algoritmo Genetico,0.0,1.7846183776855469
+rosenbrock,Recocido Simulado (Logaritmico),304.0,0.0010001659393310547
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.012995719909667969
+rosenbrock,Algoritmo Genetico,9.0,1.8105864524841309
+rosenbrock,Recocido Simulado (Logaritmico),101.0,0.0
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.014001131057739258
+rosenbrock,Algoritmo Genetico,0.0,1.7772457599639893
+rosenbrock,Recocido Simulado (Logaritmico),301.0,0.0
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.013996124267578125
+rosenbrock,Algoritmo Genetico,9.0,1.8005218505859375
+rosenbrock,Recocido Simulado (Logaritmico),405.0,0.0
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.014999866485595703
+rosenbrock,Algoritmo Genetico,0.0,1.7759969234466553
+rosenbrock,Recocido Simulado (Logaritmico),302.0,0.0009999275207519531
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.012999296188354492
+rosenbrock,Algoritmo Genetico,9.0,1.7924706935882568
+rosenbrock,Recocido Simulado (Logaritmico),204.0,0.0010001659393310547
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.014998912811279297
+rosenbrock,Algoritmo Genetico,0.0,1.7935824394226074
+rosenbrock,Recocido Simulado (Logaritmico),204.0,0.0
+rosenbrock,Recocido Simulado (Decremento Lento),9.0,0.013994693756103516
+rosenbrock,Algoritmo Genetico,9.0,1.7865328788757324
+rosenbrock,Recocido Simulado (Logaritmico),304.0,0.0010001659393310547
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.013034343719482422
+rosenbrock,Algoritmo Genetico,0.0,1.8559651374816895
+rosenbrock,Recocido Simulado (Logaritmico),206.0,0.0010004043579101562
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.014001131057739258
+rosenbrock,Algoritmo Genetico,9.0,1.787510633468628
+rosenbrock,Recocido Simulado (Logaritmico),104.0,0.0010004043579101562
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.013000249862670898
+rosenbrock,Algoritmo Genetico,0.0,1.7979960441589355
+rosenbrock,Recocido Simulado (Logaritmico),0.0,0.0010004043579101562
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.013999223709106445
+rosenbrock,Algoritmo Genetico,0.0,1.781545639038086
+rosenbrock,Recocido Simulado (Logaritmico),206.0,0.0
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.013998985290527344
+rosenbrock,Algoritmo Genetico,0.0,1.8524868488311768
+rosenbrock,Recocido Simulado (Logaritmico),201.0,0.0
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.013995885848999023
+rosenbrock,Algoritmo Genetico,0.0,1.805272102355957
+rosenbrock,Recocido Simulado (Logaritmico),304.0,0.0
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.013999700546264648
+rosenbrock,Algoritmo Genetico,0.0,1.7930338382720947
+rosenbrock,Recocido Simulado (Logaritmico),100.0,0.0
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.015706777572631836
+rosenbrock,Algoritmo Genetico,9.0,1.7939999103546143
+rosenbrock,Recocido Simulado (Logaritmico),103.0,0.0010001659393310547
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.013000249862670898
+rosenbrock,Algoritmo Genetico,0.0,1.8086175918579102
+rosenbrock,Recocido Simulado (Logaritmico),203.0,0.0009946823120117188
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.013966798782348633
+rosenbrock,Algoritmo Genetico,0.0,1.7995131015777588
+rosenbrock,Recocido Simulado (Logaritmico),207.0,0.0
+rosenbrock,Recocido Simulado (Decremento Lento),9.0,0.01299905776977539
+rosenbrock,Algoritmo Genetico,0.0,1.7995128631591797
+rosenbrock,Recocido Simulado (Logaritmico),304.0,0.0010004043579101562
+rosenbrock,Recocido Simulado (Decremento Lento),9.0,0.013999700546264648
+rosenbrock,Algoritmo Genetico,0.0,1.8109962940216064
+rosenbrock,Recocido Simulado (Logaritmico),106.0,0.0010344982147216797
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.013999700546264648
+rosenbrock,Algoritmo Genetico,0.0,1.792426347732544
+rosenbrock,Recocido Simulado (Logaritmico),405.0,0.0010004043579101562
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.013999223709106445
+rosenbrock,Algoritmo Genetico,0.0,1.8905441761016846
+rosenbrock,Recocido Simulado (Logaritmico),204.0,0.00099945068359375
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.01700305938720703
+rosenbrock,Algoritmo Genetico,0.0,1.9570307731628418
+rosenbrock,Recocido Simulado (Logaritmico),303.0,0.0010025501251220703
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.01596355438232422
+rosenbrock,Algoritmo Genetico,0.0,2.0523691177368164
+rosenbrock,Recocido Simulado (Logaritmico),202.0,0.0010008811950683594
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.01599860191345215
+rosenbrock,Algoritmo Genetico,0.0,2.1989998817443848
+rosenbrock,Recocido Simulado (Logaritmico),106.0,0.0009996891021728516
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.019002914428710938
+rosenbrock,Algoritmo Genetico,0.0,2.2575085163116455
+rosenbrock,Recocido Simulado (Logaritmico),105.0,0.0010001659393310547
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.021001815795898438
+rosenbrock,Algoritmo Genetico,0.0,2.2439982891082764
+rosenbrock,Recocido Simulado (Logaritmico),304.0,0.0
+rosenbrock,Recocido Simulado (Decremento Lento),0.0,0.019004344940185547
