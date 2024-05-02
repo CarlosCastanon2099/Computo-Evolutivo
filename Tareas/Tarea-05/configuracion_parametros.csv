@@ -1,6 +1,6 @@
 Funcion,Algoritmo,Esquema de Enfriamiento,Esquema de Reemplazo
 sphere,Recocido Simulado,Logaritmico,
 ackley,Recocido Simulado,Decremento Lento,
-griewank,Algoritmo Genetico,,Elitismo
+griewank,Algoritmo Genetico,,Generacional
 rastrigin,Algoritmo Genetico,,Elitismo
-rosenbrock,Algoritmo Genetico,,Elitismo
+rosenbrock,Algoritmo Genetico,,Peores
