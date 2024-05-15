@@ -17,8 +17,8 @@ def make_decision(board):
 
     # Definir las dimensiones del modelo
     input_size = board_tensor.shape[0]
-    hidden_size1 = 40
-    hidden_size2 = 40
+    hidden_size1 = 10
+    hidden_size2 = 10
     output_size = 1
 
     # Crear una nueva instancia del modelo
