@@ -83,6 +83,8 @@ Es importante recordar tambien que debemos asegurarnos de que tenemos instalado 
     - genetic_model.pth
     - genetico.py
     - game.py
+    - /tic+tac+toe+endgame (data-set)
+    - /styles
 ```
 
 
@@ -90,6 +92,7 @@ Es importante recordar tambien que debemos asegurarnos de que tenemos instalado 
 resultantes del entrenamiento hecho con el notebook anterior, [genetico.py](./genetico.py) contiene toda la informacion del notebook pero en python nativo (ademas de que al ejecutar
 este script no entrenaremos otra red, el proposito de este archivo es el de exportar todo nuestro codigo a game.py), [game.py](./game.py) contiene todo el codigo necesario 
 para cargar la red entrenada y poder usarla en un juego de gato.
+
 
 ---
 
