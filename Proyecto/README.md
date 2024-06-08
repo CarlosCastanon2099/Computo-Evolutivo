@@ -88,9 +88,9 @@ Es importante recordar tambien que debemos asegurarnos de que tenemos instalado 
 ```
 
 
-[Genético.ipynb](./Genético.ipynb) contiene el codigo necesario para poder generar una red neuronal genetica entrenada, [genetic_model.pth](./genetic_model.pth) contiene los datos
-resultantes del entrenamiento hecho con el notebook anterior, [genetico.py](./genetico.py) contiene toda la informacion del notebook pero en python nativo (ademas de que al ejecutar
-este script no entrenaremos otra red, el proposito de este archivo es el de exportar todo nuestro codigo a game.py), [game.py](./game.py) contiene todo el codigo necesario 
+[Genético.ipynb](./src/Genético.ipynb) contiene el codigo necesario para poder generar una red neuronal genetica entrenada, [genetic_model.pth](./src/genetic_model.pth) contiene los datos
+resultantes del entrenamiento hecho con el notebook anterior, [genetico.py](./src/genetico.py) contiene toda la informacion del notebook pero en python nativo (ademas de que al ejecutar
+este script no entrenaremos otra red, el proposito de este archivo es el de exportar todo nuestro codigo a game.py), [game.py](./src/game.py) contiene todo el codigo necesario 
 para cargar la red entrenada y poder usarla en un juego de gato.
 
 
@@ -98,13 +98,13 @@ para cargar la red entrenada y poder usarla en un juego de gato.
 
 ## **Preliminares**
 
-El presente proyecto se divide en dos, el notebook en el que definimos la arquitectura y entrenamiento de la red neuronal genetica [Genético.ipynb](./Genético.ipynb) y 
-el programa [game.py](./game.py) que a raiz de los resultados obtenidos en el notebook anterior, este nos permite jugar partidas ilimitadas de Gato (tic-tac-toe) contra nuestra
+El presente proyecto se divide en dos, el notebook en el que definimos la arquitectura y entrenamiento de la red neuronal genetica [Genético.ipynb](./src/Genético.ipynb) y 
+el programa [game.py](./src/game.py) que a raiz de los resultados obtenidos en el notebook anterior, este nos permite jugar partidas ilimitadas de Gato (tic-tac-toe) contra nuestra
 red neuronal genetica.
 
-Nota, nosotros ya hemos entrenado a la red y hemos guardado los datos de la red entrenada en [genetic_model.pth](./genetic_model.pth), es por esto que podemos correr [game.py](./game.py)
-sin problemas, ya que no necesitamos entrenar a la red cada que queramos jugar con ella, ya que de eso se encarga [genetic_model.pth](./genetic_model.pth) y el siguiente fragmento de codigo
-en el que cargamos el modelo y despues instanciamos una red genetica con esos datos para nuestro modelo (todo esto desde [game.py](./game.py) ).
+Nota, nosotros ya hemos entrenado a la red y hemos guardado los datos de la red entrenada en [genetic_model.pth](./src/genetic_model.pth), es por esto que podemos correr [game.py](./src/game.py)
+sin problemas, ya que no necesitamos entrenar a la red cada que queramos jugar con ella, ya que de eso se encarga [genetic_model.pth](./src/genetic_model.pth) y el siguiente fragmento de codigo
+en el que cargamos el modelo y despues instanciamos una red genetica con esos datos para nuestro modelo (todo esto desde [game.py](./src/game.py) ).
 
 ```java
 # Cargamos el modelo
@@ -127,11 +127,11 @@ model.eval()
 
 Para correr el notebook que implementa la arquitectura, entrenamiento y optimizacion de una red neuronal genetica, se debe abrir el Jupyter Notebook en algun editor (como Jupyter nativo, VS Code, etc.).
 
-[Genético.ipynb](./Genético.ipynb)
+[Genético.ipynb](./src/Genético.ipynb)
 
 Para correr el programa con el que nos enfrentamos a la red neuronal genetica entrenada, debemos correr (dependiendo el Sistema Operativo) alguno de los siguientes comandos:
 
-Nota, ya tenemos entrenado el modelo, no es necesario ejecutar [Genético.ipynb](./Genético.ipynb) a menos que se desee experimentar entrenar la red con otros hiperparametros.
+Nota, ya tenemos entrenado el modelo, no es necesario ejecutar [Genético.ipynb](./src/Genético.ipynb) a menos que se desee experimentar entrenar la red con otros hiperparametros.
 
 
 Linux  : 
