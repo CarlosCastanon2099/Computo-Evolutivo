@@ -7,7 +7,7 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 
-import import_ipynb
+#import import_ipynb
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import json, matplotlib
