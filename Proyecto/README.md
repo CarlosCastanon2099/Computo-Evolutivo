@@ -19,7 +19,12 @@
 
 </div>
 
----
+----
+
+[Red Neuronal Tic Tac Toe.webm](https://github.com/CarlosCastanon2099/Computo-Evolutivo/assets/108638686/bb72c7c4-1a06-4f14-bf3b-bb13a24b60bf)
+
+
+----
 
 ## **Requerimientos**
 
