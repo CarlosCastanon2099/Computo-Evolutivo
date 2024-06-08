@@ -12,7 +12,7 @@
 > -  Tarea 03: <em> Metaheurísticas de Trayectoria </em>
 > -  Tarea 04: <em> Algoritmo Genético </em>
 > -  Tarea 05: <em> Análisis de Resultados </em>
-> -  Tarea 0n: <em> This :> Tarea 0n. </em>
+
 
 
 
